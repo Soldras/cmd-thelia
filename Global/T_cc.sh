@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # @author Penalver Antony, Maxime Morille
 # v0.2
 
@@ -33,7 +33,7 @@ done
 
 THELIA="php Thelia"
 
-echo -e "\n== Clearing Caches for $ENV ==\n"
+echo  "\n== Clearing Caches for $ENV ==\n"
 
 if [[ $ENV ]]
 then
@@ -48,5 +48,5 @@ else
 fi
 
 
-echo -e "\n== All caches of $ENV are clear ==\n"
+echo  "\n== All caches of $ENV are clear ==\n"
 exit 0
