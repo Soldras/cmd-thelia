@@ -2,7 +2,7 @@
 
 Somes scripts for Thelia ( >= 2.1 )
 
-## Command Type
+## Global script
 
 ### T_cc
 
@@ -11,6 +11,8 @@ Allow you to clear cache from all env
 ### T_right
 
 Quick change right for Thelia in dev
+
+## Module Script
 
 ### M_restart
 
@@ -21,6 +23,8 @@ Allow you to quickly restart a module
 Name 		 	| Description 
 ------------ 	| -------------
 Module name 	| Module to restart
+
+## DB Script
 
 ### D_content
 
@@ -38,3 +42,16 @@ Tables options 	| 0 for base table, 1 to add Keyword's tables, 2 to add View's t
 
 #### Return 
 You can see the command executed
+
+### D_product
+
+This script will generate a dump of product tables
+
+#### Usage
+
+D_product.sh  [-h] [-k] [-c] -d database -u user -p password -f filename
+
+#### Options
+	-h\tdisplay this message\n
+	-k\tadd keyword tables\n
+	-c\tadd content linked tables\n
