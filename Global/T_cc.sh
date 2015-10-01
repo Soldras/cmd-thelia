@@ -35,7 +35,7 @@ THELIA="php Thelia"
 
 echo  "\n== Clearing Caches for $ENV ==\n"
 
-if [[ $ENV ]]
+if [ $ENV ]
 then
 	sudo $THELIA --env=$ENV cache:clear
 	sudo $THELIA --env=$ENV"_dev" cache:clear
