@@ -28,20 +28,16 @@ Module name 	| Module to restart
 
 ### D_content
 
-Allow you to quicly create a Dump for Thelia content
+This script will generate a dump of content tables
 
-#### Argument
+#### Usage
 
-Name 		 	| Description 
------------- 	| -------------
-DB name 	 	| Database's name to dump
-User 	 	 	| An user can have right to the database
-Password 	 	| The associate password
-Filename 	 	| Filname for dump
-Tables options 	| 0 for base table, 1 to add Keyword's tables, 2 to add View's tables
+D_product.sh  [-h] [-k] [-v] -d database -u user -p password -f filename\n
 
-#### Return 
-You can see the command executed
+#### Options
+	-h\tdisplay this message\n
+	-k\tadd keyword tables\n
+	-v\tadd view tables\n
 
 ### D_product
 
