@@ -1,6 +1,6 @@
 #!/bin/sh
 # @author Penalver Antony
-# v0.1
+# v1.0
 
 DB=""
 USER=""
