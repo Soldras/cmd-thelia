@@ -47,6 +47,11 @@ else
 	sudo $THELIA --env=test cache:clear
 fi
 
+if hash notify-send 2>/dev/null;
+then
+	notify-send "All caches of $ENV are clear"
+fi
+
 
 echo  "\n== All caches of $ENV are clear ==\n"
 exit 0
