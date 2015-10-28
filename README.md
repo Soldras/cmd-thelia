@@ -51,3 +51,16 @@ D_product.sh  [-h] [-k] [-c] -d database -u user -p password -f filename
 	-h\tdisplay this message\n
 	-k\tadd keyword tables\n
 	-c\tadd content linked tables\n
+	
+### D_cutomer
+
+This script will generate a dump of customer tables
+
+#### Usage
+
+D_customer.sh  [-h] [-o] [-c] -d database -u user -p password -f filename
+
+#### Options
+	-h\tdisplay this message\n
+    -o\tadd order linked tables\n
+    -c\tadd cart linked tables. WARNING : Cart are linked to product\n
