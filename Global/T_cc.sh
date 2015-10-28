@@ -1,6 +1,6 @@
 #!/bin/sh
 # @author Penalver Antony, Maxime Morille
-# v0.2
+# v0.3
 
 ENV=""
 HELP="
