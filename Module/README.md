@@ -10,6 +10,3 @@ Name 		 	| Description
 ------------ 	| -------------
 Module name 	| Module to restart
 
-# DB Script
-
-All scripts for Thelia BDD help
