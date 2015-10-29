@@ -8,8 +8,6 @@ All scripts for base Thelia
 
 ## Module Script
 
-### M_restart
-
 All scripts for Module Thelia help
 
 ## DB Script
