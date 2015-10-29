@@ -58,9 +58,10 @@ This script will generate a dump of customer tables
 
 #### Usage
 
-D_customer.sh  [-h] [-o] [-c] -d database -u user -p password -f filename
+D_customer.sh  [-h] [-o] [-c] [-z] -d database -u user -p password -f filename
 
 #### Options
 	-h\tdisplay this message\n
     -o\tadd order linked tables\n
+    -z\tadd thelia 1 compat tables\n
     -c\tadd cart linked tables. WARNING : Cart are linked to product\n
