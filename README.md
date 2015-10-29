@@ -20,6 +20,14 @@ T_cc.sh [-h] [-e ENV]
 
 Quick change right for Thelia in dev
 
+#### Usage
+
+T_right.sh [-h] [-c] CODE
+
+#### Options
+	-h\tdisplay this message\n
+    -c\tset code for chmod ( default : 777 )\n
+
 ## Module Script
 
 ### M_restart
