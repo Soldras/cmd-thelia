@@ -7,9 +7,9 @@ USER=""
 PASSWORD=""
 FILENAME=""
 
-TABLES_PRODUCT="feature_product product product_i18n product_document product_document_i18n product_image product_image_i18n product_price product_sale_elements product_sale_elements_product_document product_sale_elements_product_image product_version "
-TABLES_CAT="category category_document category_document_i18n category_image category_image_i18n category_version product_category "
-TABLES_KEY="product_associated_keyword category_associated_keyword "
+TABLES_PRODUCT="attribute attribute_combination attribute_template attribute_I18n attribute_av attribute_av_I18n feature_product product product_i18n product_document product_document_i18n product_image product_image_i18n product_price product_sale_elements product_sale_elements_product_document product_sale_elements_product_image product_version template template_I18n "
+TABLES_CAT=" category category_document category_document_i18n category_image category_image_i18n category_version product_category "
+TABLES_KEY=" product_associated_keyword category_associated_keyword "
 TABLES_CONTENT=" product_associated_content category_associated_content "
 
 TABLES=$TABLES_PRODUCT$TABLES_CAT
