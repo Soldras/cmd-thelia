@@ -1,6 +1,6 @@
 #!/bin/sh
 # @author Penalver Antony
-# v0.1
+# v0.1.1
 
 
 MODULE=""
@@ -60,4 +60,7 @@ php-cs-fixer.phar fix local/modules/$MODULE/Command/ --level=psr2
 fi
 if [ -d "local/modules/$MODULE/Smarty/" ]; then
 php-cs-fixer.phar fix local/modules/$MODULE/Smarty/ --level=psr2
+fi
+if [ -d "local/modules/$MODULE/Loop/" ]; then
+php-cs-fixer.phar fix local/modules/$MODULE/Loop/ --level=psr2
 fi
